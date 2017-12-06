@@ -1,0 +1,10 @@
+<div class="cards" >
+	<div id="{{card._id}}"  class="card-detail col-xs-3 {{$index}}" ng-repeat="card in tray.cardGroup" style="min-height:127px; width:223px; margin-right:21px;padding: 0;margin-bottom:21px;position:relative" ng-if="widthfunc($index)"   ng-click="card_id(card)">
+		<div class="card-details">
+			<img ng-src="component/directive/newImg/{{card.image}}" style="max-height:140px;">
+			<div class="card_content" style="padding-left:8px;"><h3 style="margin:0;">  {{card.title}}</h3>
+				<p style="margin:0;overflow:hidden;">  {{card.tag}}</p>
+			</div>
+		</div>
+	</div>
+</div>	

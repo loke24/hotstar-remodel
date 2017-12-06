@@ -1,0 +1,137 @@
+
+  {
+    "name":"lok",
+    "traypanel": [
+      {
+        "content": "trending tamil shows",
+        "cardGroups": [
+          {
+            "id": "1",
+            "title": "Big Boss",
+            "image": "img/bigboss.jpg",
+            "tag": [
+              "reality",
+              "tamil",
+              "starvijay"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Dragon Ball z",
+            "image": "img/dragon_ball_z.jpg",
+            "tag": [
+              "cartoon",
+              "anime",
+              "japan",
+              "dragon"
+            ]
+          }
+          ]
+      },
+      {
+        "content": "trending english shows",
+        "cardGroups": [
+          {
+            "id": "1",
+            "title": "Big Boss",
+            "image": "img/bigboss.jpg",
+            "tag": [
+              "reality",
+              "tamil",
+              "starvijay"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Dragon Ball z",
+            "image": "img/dragon_ball_z.jpg",
+            "tag": [
+              "cartoon",
+              "anime",
+              "japan",
+              "dragon"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Naruto",
+            "image": "img/naruto.jpg",
+            "tag": [
+              "ninja",
+              "japan",
+              "anime",
+              "cartoon"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "Ready steady po",
+            "image": "img/ready.jpg",
+            "tag": [
+              "reality show",
+              "star vijay"
+            ]
+          },
+          {
+            "id": "5",
+            "title": "M.S.Dhoni",
+            "image": "img/dhoni.jpg",
+            "tag": [
+              "Movie",
+              "star vijay"
+            ]
+          },
+          {
+            "id": "6",
+            "title": "M.S.Dhoni",
+            "image": "img/dhoni.jpg",
+            "tag": [
+              "Movie",
+              "star vijay"
+            ]
+          },
+          {
+            "id": "1",
+            "title": "Big Boss",
+            "image": "img/bigboss.jpg",
+            "tag": [
+              "reality",
+              "tamil",
+              "starvijay"
+            ]
+          },
+          {
+            "id": "2",
+            "title": "Dragon Ball z",
+            "image": "img/dragon_ball_z.jpg",
+            "tag": [
+              "cartoon",
+              "anime",
+              "japan",
+              "dragon"
+            ]
+          },
+          {
+            "id": "3",
+            "title": "Naruto",
+            "image": "img/naruto.jpg",
+            "tag": [
+              "ninja",
+              "japan",
+              "anime",
+              "cartoon"
+            ]
+          },
+          {
+            "id": "4",
+            "title": "Ready steady po",
+            "image": "img/ready.jpg",
+            "tag": [
+              "reality show",
+              "star vijay"
+            ]
+          }
+        ]
+      }
+    ]
+  }

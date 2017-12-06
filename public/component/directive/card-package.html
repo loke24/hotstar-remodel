@@ -1,0 +1,29 @@
+
+<div class="carddetail" ng-repeat="newdetail in newdetails">
+	
+	
+	<div id="title" class="title" ng-repeat="tray in newdetail.traypanel"><h3 ng-click="contentEdit(tray,$event)">{{tray.content}}</h3>
+
+				
+	<div class="arrow-left" ng-class="hide":hidden>
+ 				<i class="fa fa-chevron-left fa-3x" aria-hidden="true"  arrow-left   ></i>
+ 		</div>
+
+		<div style="overflow:hidden">
+
+			<div id="card-panel" class="card-panel carousel-arrow  container carousel" style="max-width:983px;height:205px;padding:0;position:relative;left:0;">
+				<div class="card-package" >
+				
+
+				
+					
+ 			<small-card tray="tray" class="tray"></small-card>
+ 			
+			</div>
+		</div>
+		</div>
+		<div class="arrow-right" arrow-right >
+ 				<i class="fa fa-chevron-right fa-3x" aria-hidden="true" ></i>
+ 		</div>
+ 		</div>
+ 		</div>

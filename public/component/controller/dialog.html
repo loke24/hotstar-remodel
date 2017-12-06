@@ -1,0 +1,28 @@
+<md-dialog >
+	<div class="modal_inner" style="width:287px;height:auto;padding:0px 20px 0 20px">
+<!-- 
+			<div class="get_id">
+				<button class="btn btn-primary" ng-modal="card_content.first='trending tamil shows'" ng-click="clicked='true';get_id()" ng-hide="clicked"></button>
+
+			</div> -->
+
+
+			<form class="addd" ng-submit="addnewCard()">
+				
+			<md-input-container class="md-block" flex-gt-sm>
+			<label>title</label>
+			<input id="title" ng-model="card_content.title" type="text">
+			</md-input-container>
+			<md-input-container  class="md-block">
+			<label>tag</label>
+			<input id="tag" ng-model="card_content.tag" type="text">
+			</md-input-container>
+			<input id="file" type="file" ng-model="card_content.file">
+			<div >
+				<button class="btn btn-primary" style="margin-left:83px;margin-bottom:20px;margin-top:15px" >submit</button>
+			</div>
+		</form>
+			
+			
+	</div>
+</md-dialog>

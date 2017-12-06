@@ -1,0 +1,124 @@
+.navigation-bar{
+	min-height: 67px;
+	background-color: #8bbb4b;
+}
+.carosel-class{
+	min-height: 295px;
+	background-color: #6115ce;
+}
+.card-color{
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+.main_class{
+	background-color: #dddddd;
+}
+.card-detail{
+	/*max-height: 187px;*/
+	max-width: 223px;
+	/*background-color: #8bbb4b;*/
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	
+}
+.card-details img{
+	height: 100%;
+	width: 100%;
+	border-radius: 4px 4px 0px 0px;
+}
+.card_content{
+	min-height: 60px;
+	background-color: #ffffff;
+	border-radius: 0px 0px 4px 4px;
+
+}
+.card_main{
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+	background-color:#eeeeee;
+	 padding:90px 87px 0 90px;
+	 /*min-height: 360px;*/
+}
+.image img{
+	min-height: 295px;
+}
+.arrow-right{
+	position: relative;
+    max-width: 30px;
+    margin: 0;
+    left: 978px;
+    top: -126px;
+    opacity: 0.4;
+}
+.arrow-left{
+	position: relative;
+    max-width: 30px;
+    margin: 0;
+    left: -44px;
+    top: 121px;
+    opacity: 0.4;
+}
+.animate-class{
+	min-height: 232px;
+}
+.hide{
+	opacity: 0;
+}
+.add_class{
+	min-height: 200px;
+	width: 200px;
+	margin-left: 20px;
+	background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Loading animation*/
+.animate-class-inner{
+	
+	min-height: 50px;
+	width: 70px;
+	position: relative;
+    left: 551px;
+    top: 67px;
+
+}
+.animate-class-inner >div{
+	min-height: 50px;
+	background-color: #8bbb4b;
+	width: 10px;
+	display: inline-block;
+	animation:loading-animate 1s infinite ease-in-out;
+}
+.animate-class-inner .temp1{
+	animation-delay:0.2s;
+}
+.animate-class-inner .temp2{
+	animation-delay:0.3s;
+}
+.animate-class-inner .temp3{
+	animation-delay:0.4s;
+}
+.animate-class-inner .temp4{
+	animation-delay:0.5s;
+}
+.animate-class-inner .temp5{
+	animation-delay:0.6s;
+}
+
+@keyframes loading-animate{
+	0%,40%,100%{
+		transform:scaleY(0.5);
+	}
+	20%{
+		transform:scaleY(1);
+	}
+	
+}

@@ -1,0 +1,127 @@
+<html>
+<head>
+	<title>Hotstar_remodel</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/angular-material/angular-material.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/mdi/css/materialdesignicons.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.css">
+
+</head>
+<body ng-app="hotstar" ng-controller="maincontrol">
+	<div class="main_class">
+	<div class="container " >
+		<div class="navigation-bar card-color" >
+			<div class="login btn btn-primary" style="width: 90px;height: 40px;right: 216px;top: 12px;position: absolute;background-color:#8bbb4b;border:0;" ui-sref="admin"><h3 style="margin:0">Admin</h3></div>
+			<div class="login btn btn-primary" style="width: 90px;height: 40px;right: 123px;top: 12px;position: absolute;background-color:#8bbb4b;border:0;" data-toggle="modal" data-target="#mymodal" ng-click="testing()"><h3 style="margin:0">Login</h3></div>
+			
+			<div class="login btn btn-primary" style="width: 90px;height: 40px;right: 296px;top: 12px;position: absolute;background-color:#8bbb4b;border:0;" ng-click="addCard($event)"><h3 style="margin:0" ui-sref="newCard">Add</h3></div>
+
+		</div>
+			<div id="mymodal" class="modal fade"  role="dialog">
+				<div class="modal-dialog">
+					<div class="modal-content">					
+						<div class="modal-body">
+							<div class="modal-inner">
+								<md-input-container>
+									<label>Email</label>
+									<input ng-model="email">
+								</md-input-container>
+
+							</div>
+						
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+
+
+			</div>
+			<div id="carousel_id" class="carousel carosel-class slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel_id" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel_id" data-slide-to="1" ></li>
+					<li data-target="#carousel_id" data-slide-to="2" ></li>
+					<li data-target="#carousel_id" data-slide-to="3" ></li>
+				</ol>
+				<div class="carousel-inner" style="max-height:362px;">
+					<div class="item image active">
+						<img src="img/carousel/s1r.png">
+					</div>
+					<div class="item image">
+						<img src="img/carousel/s2r.png">
+					</div>
+					<div class="item image">
+						<img src="img/carousel/s3r.png">
+					</div>
+					<div class="item image">
+						<img src="img/carousel/s4r.png">
+					</div>		
+				</div>
+
+
+
+
+
+		</div> 
+		<div ui-view></div>
+		<div class="card_main">
+			
+		<card-package newdetails="newdetails">
+		</card-package>
+	
+		</div>
+		<div class="testing" >
+			<first-test 
+			member="member" newdetails="newdetails.traypanel"
+			ng-repeat="member in newdetails" ></first-test>
+
+
+		</div>
+
+		
+		
+
+
+		</div>
+
+
+		</div>
+		
+
+
+
+
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="node_modules/angular/angular.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+				<script src="js/app.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+		
+		
+
+		<script src="component/controller/controller.js"></script>
+		<script src="component/directive/loading.js"></script>
+		<script src="component/directive/card-package.js"></script>
+		<script src="component/directive/card-directive.js"></script>
+		
+		<script src="node_modules/angular-material/angular-material.js"></script>
+		<script src="node_modules/angular-animate/angular-animate.js"></script>
+		<script src="node_modules/angular-aria/angular-aria.js"></script>
+		
+		
+		<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+
+
+
+
+
+
+	</body>
+
+	</html>
